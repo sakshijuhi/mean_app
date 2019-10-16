@@ -1,0 +1,125 @@
+.App{
+  height: 100vh;
+  padding: 5px;
+  color:black;
+
+}
+.PageSwitcher {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10%;
+}
+
+.PageSwitcherItem {
+  background-color: #4C5D72;
+  color: #000;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: .9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.PageSwitcher__Item--Active {
+  background-color: #5ED0C0;
+  color: #000;
+}
+
+.FormCenter {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+
+.AppForm{
+  padding: 25px 40px;
+  overflow: auto;
+ 
+}
+
+.width-70pct{
+  width:70%;
+}
+
+.width-100px{
+  width:100px;
+}
+
+.width-200px{
+  width:200px;
+}
+.width-500px{
+  width: 500px;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+
+.text-align-right{
+  text-align: right;
+}
+
+.margin-right-10px{
+  margin-right: 10px;
+}
+
+.margin-top-20px{
+  margin-top: 20px;
+}
+
+.margin-bottom-20px{
+  margin-bottom: 20px;
+}
+
+.cursor-pointer{
+  cursor:pointer;
+}
+
+.logout-margin{
+  padding-left:1200px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.TopBarLogoContainer{
+  background-color: #5bc0de;
+  padding: 0;
+  margin: 0;
+}
+
+.tab-content-bdr {
+  border: 2px solid #0287d2;
+  padding: 10px;
+}
+
+.PageContentPaddingDiv{
+  background-color: transparent;
+  padding-bottom: 195px;
+  background-color: #FFF;
+  margin-top: 28px;
+  margin-bottom: 0px;
+}
+
+.AppFormLayout{
+  background-color:#f5f7fa;
+}
+
+.test{
+  background-color:#dddddd;
+}
+
